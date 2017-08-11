@@ -18,7 +18,7 @@ endfunction(add_module)
 add_module(NAME akm SOURCES
 	modules/pam_aks/pam_aks.c
 )
-target_link_libraries(pam_akm CoreFoundation pam.2)
+target_link_libraries(pam_akm ${CoreFoundation} pam.2)
 
 install(TARGETS pam_akm
 	DESTINATION libexec/darling/usr/lib/pam
