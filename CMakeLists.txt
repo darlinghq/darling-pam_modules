@@ -1,5 +1,7 @@
 project(pam_modules)
 
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/common)
+
 function(add_module)
 	set(oneValueArgs NAME)
 	set(multiValueArgs SOURCES)
