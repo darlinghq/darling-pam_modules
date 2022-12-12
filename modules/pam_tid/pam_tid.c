@@ -33,10 +33,6 @@
 #include <pwd.h>
 #include <LocalAuthentication/LAPrivateDefines.h>
 
-#ifdef DARLING
-#include <LocalAuthentication/LACFSupport.h>
-#endif
-
 #define PAM_SM_AUTH
 #define PAM_SM_ACCOUNT
 
