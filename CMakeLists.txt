@@ -102,7 +102,7 @@ add_module(
 		modules/pam_opendirectory/pam_opendirectory.m
 		common/Common.c
 	DEPENDS
-		CoreFoundation
+		Foundation
 		OpenDirectory
 		ConfigurationProfiles
 		objc
